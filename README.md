@@ -4,6 +4,40 @@
 
 Este projeto implementa um agente jurídico inteligente, que utiliza múltiplos modelos de linguagem (Groq + OpenAI) para oferecer pareceres jurídicos precisos e integrados. Ele aplica padrões de design agentic como _Parallel Task Decomposition_ e _Critic Evaluation_.
 
+# 🧑‍⚖️ AgenteJUS
+
+## Legal Agent: Assistente Jurídico com Agentes LLM
+
+Este projeto implementa um agente jurídico inteligente que utiliza múltiplos modelos de linguagem (Groq + OpenAI) para oferecer pareceres jurídicos precisos e integrados. Ele aplica padrões de design agentic como _Parallel Task Decomposition_ e _Critic Evaluation_.
+
+## ✨ Funcionalidades
+
+- Consulta jurídica dividida por especialidade (e.g. LGPD, requisitos de empresa)
+- Avaliação crítica entre respostas de múltiplos modelos
+- Geração de resposta final explicativa e consolidada
+- Interface em notebook, pronta para Cursor, VS Code ou Jupyter
+
+---
+
+## 🧰 Tecnologias
+
+- Python 3.10+
+- [OpenAI SDK](https://pypi.org/project/openai/)
+- [Groq API](https://console.groq.com) (formato compatível com OpenAI)
+- `python-dotenv`
+- IPython / Markdown (para visualização interativa)
+
+---
+
+## 🚀 Como usar
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/SEU_USUARIO/AgenteJUS.git
+cd AgenteJUS
+
+
 ## ✨ Funcionalidades
 
 - Consulta jurídica dividida por especialidade
@@ -39,3 +73,4 @@ Relativamente à propriedade intelectual, a empresa deve registrar seu software,
 No que diz respeito à Lei Geral de Proteção de Dados (LGPD), a empresa deve obter o consentimento expresso do titular dos dados antes de coletar e processar os dados pessoais, além de operar de maneira transparente e minimizando a coleta de dados. Os dados podem ser coletados apenas para finalidades específicas, e a empresa deve garantir a segurança dos dados coletados. Em caso de violação de dados, a Autoridade Nacional de Proteção de Dados (ANPD) e o titular dos dados devem ser notificados. É necessário também nomear um encarregado para intermediar a comunicação entre a controladora de dados, os titulares dos dados e a ANPD.
 
 Garantir todos esses pontos é crucial para evitar penalizações legais e garantir o sucesso da empresa. A orientação profissional de um advogado, contador ou consultor especializado em gestão de tecnologia pode ser crucial para uma implementação efetiva de todos os requisitos legais.
+
