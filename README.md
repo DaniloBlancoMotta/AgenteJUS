@@ -1,6 +1,6 @@
 # AgenteJUS 
 
-# 🧠 Legal Agent: Assistente Jurídico com Agentes LLM
+# Legal Agent: Assistente Jurídico com Agentes LLM
 
 Este projeto implementa um agente jurídico inteligente, que utiliza múltiplos modelos de linguagem (Groq + OpenAI) para oferecer pareceres jurídicos precisos e integrados. Ele aplica padrões de design agentic como _Parallel Task Decomposition_ e _Critic Evaluation_.
 
