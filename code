@@ -1,3 +1,19 @@
+pip install -r requirements.txt 
+
+cp .env.example .env
+
+OPENAI_API_KEY=sk-...
+GROQ_API_KEY=gsk-...
+
+AgenteJUS/
+├── 1_foundations/
+│   └── 2_lab2.ipynb          # Notebook com a lógica do agente LLM
+├── .env.example              # Exemplo de variáveis de ambiente
+├── README.md                 # Este arquivo
+├── requirements.txt          # Dependências do projeto
+└── src/                      # (Opcional) código Python modular
+
+
 from dotenv import load_dotenv
 import os
 from openai import OpenAI
@@ -49,3 +65,5 @@ resposta_final = res_critic.choices[0].message.content
 
 # Exibe a resposta final
 display(Markdown(f"### Parecer Jurídico Integrado:\n\n{resposta_final}"))
+
+
