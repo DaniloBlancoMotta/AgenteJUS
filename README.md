@@ -26,7 +26,7 @@ Este projeto implementa um agente jurídico inteligente, que utiliza múltiplos 
    ```bash
    cp .env.example .env
 
-### Parecer Jurídico Integrado:
+### Parecer Jurídico Integrado (exemplo gerado - Groq + OpenAi): 
 
 Ao iniciar uma nova empresa de tecnologia no Brasil, é essencial se familiarizar com os requisitos legais que regem tanto a criação da empresa quanto a gestão dos dados de seus clientes. Primeiramente, a escolha do tipo de empresa e o registro da mesma na Junta Comercial do Estado (JUCE) ou no Registro Civil das Pessoas Jurídicas (RCPJ) é crucial. Também é importante obter a Carteira de Pessoa Jurídica (CPJ) ou o Cadastro Nacional de Pessoa Jurídica (CNPJ) para a sua empresa.
 
